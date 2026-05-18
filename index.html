@@ -1,0 +1,359 @@
+<!DOCTYPE html> 
+
+<html>
+  <head>   
+  <meta charset="utf-8"> 
+  <title> Bloomy Things </title>
+ <style>
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+   background-image:
+      linear-gradient(
+         to bottom,
+         #fdbace,
+         #f7b9cc,
+         #f3c2d1,
+         #ffd3e3,
+         #ffdee9
+      ),
+      url("bg.png");
+
+   background-size: cover, 300px;
+
+   min-height: 100vh;
+   padding: 20px;
+}
+.container{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+    gap: 60px;
+}
+.teks {
+  width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tag{
+
+    display: inline-block;
+    align-self: flex-start;
+    background-color: white;
+    color: #d63384;
+    padding: 10px 22px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.brand{
+    font-family: "Montserrat", sans-serif;
+    color: #a30d41;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.produk{ 
+    font-family: "Montserrat", sans-serif;
+    font-size: 85px;
+
+    line-height: 1;
+    margin-bottom: 25px;
+
+    font-weight: bold;
+
+    -webkit-text-stroke: 1px rgb(65, 2, 12);
+
+    color: #74052a;
+
+    text-shadow: 4px 4px 0px rgba(255,255,255,0.3);
+
+    display: inline-block;
+
+    overflow: hidden;
+
+    white-space: nowrap;
+
+    border-right: 4px solid #74052a;
+
+    width: 0;
+
+    animation:
+      typing 3s steps(14, end) forwards,
+      blink 0.7s infinite;
+}
+@keyframes typing{
+   from{
+      width: 0;
+   }
+
+   to{
+      width: 13ch;
+   }
+}
+
+@keyframes blink{
+   50%{
+      border-color: transparent;
+   }
+}
+
+.deskripsi{
+    font-family: "Iosevka Charon", monospace;
+      font-size: 25px;
+      line-height: 1.6;
+    max-width: 650px;
+    color: #c42359;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+.deskripsi:hover{
+   color: #ff1493;
+
+   text-shadow: 0 0 8px rgba(255, 20, 147, 0.4);
+}
+
+.image img{
+    width: 450px;
+    border-radius: 90px;
+    border: 4px dashed #d63384;
+    padding: 10px;
+    display: block;
+     box-shadow: 0 10px 30px rgba(214, 51, 132, 0.25);
+    transition: 0.3s;
+}
+.image img:hover{
+    transform: scale(1.03); }
+
+  h1 {
+     font-family: "Iosevka Charon", monospace;
+     font-size: 50px;
+     color: rgb(230, 62, 140);
+     padding: 5px;
+     text-align: center;
+  }
+  .fungsi1 h2 {
+ font-family: "Handlee", cursive;
+     font-size: 30px;
+     color: rgb(230, 62, 140);
+     margin: 10px;
+     padding: 5px;
+  }
+  .fungsi1 p {
+     font-family: "Handlee", cursive;
+     font-size: 30px;
+     color: rgb(230, 62, 140);
+     margin: 5px;
+     padding: 5px;
+  }
+  .img1 img {
+  width: 1200px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+ .fungsi2 h2 {
+ font-family: "Handlee", cursive;
+     font-size: 30px;
+     color: rgb(230, 62, 140);
+     margin: 5px;
+     padding: 5px;
+     margin-top: 50px;
+  }
+  .fungsi2 p {
+     font-family: "Handlee", cursive;
+     font-size: 30px;
+     color: rgb(230, 62, 140);
+     margin: 10px;
+     padding: 5px;
+  }
+  .img2 img {
+  width: 1200px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.fungsi3 h2 {
+ font-family: "Handlee", cursive;
+     font-size: 30px;
+     color: rgb(230, 62, 140);
+     margin: 5px;
+     padding: 5px;
+     margin-top: 50px;
+  }
+  .fungsi3 p {
+     font-family: "Handlee", cursive;
+     font-size: 30px;
+     color: rgb(230, 62, 140);
+     margin: 10px;
+     padding: 5px;
+  }
+  .img3 img {
+  width: 1200px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+
+.fungsi4 h2 {
+ font-family: "Handlee", cursive;
+     font-size: 30px;
+     color: rgb(230, 62, 140);
+     margin: 5px;
+     padding: 5px;
+     margin-top: 50px;
+  }
+  .fungsi4 p {
+     font-family: "Handlee", cursive;
+     font-size: 30px;
+     color: rgb(230, 62, 140);
+     margin: 10px;
+     padding: 5px;
+  }
+  .img4 img {
+  width: 1200px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 30px ;
+  }
+
+.wawa {
+     display: block;
+     width: fit-content;
+
+     font-family: "Iosevka Charon", monospace;
+     font-size: 50px;
+     color: rgb(141, 0, 66);
+
+     padding: 5px 20px;
+
+     text-align: center;
+
+     border: 2px solid #fcff49;
+     background: #ffe600;
+     border-radius: 20px;
+
+     margin: 0 auto;
+     transition: 0.3s;
+}
+.wawa:hover{
+     transform: scale(1.05);
+
+     box-shadow: 0 0 20px rgba(255, 230, 0, 0.7);
+
+     cursor: pointer;
+}
+.Warning{
+    width: 1180px;
+    font-family: "Iosevka Charon", monospace;  
+    color: #c42359;
+    padding: 10px 22px;
+    border: 2px solid #ff69b4;
+    background: rgba(255,255,255,0.2);
+    box-shadow: 0 8px 20px rgba(214, 51, 132, 0.15);
+    border-radius: 15px;
+    text-align: justify; 
+    font-size: 25px;
+    font-weight: bold;
+    margin: 30px auto;
+    transition: 0.3s;
+}
+.Warning:hover{
+   color: #ff1493;
+
+   text-shadow: 0 0 8px rgba(255, 20, 147, 0.4);
+}
+.footer{
+   text-align: center;
+   margin-top: 50px;
+   padding: 20px;
+
+   font-size: 20px;
+   color: #c42359;
+
+   opacity: 0.8;
+}
+ </style>
+  </head>
+<body>
+    <div>
+
+   <div class="container">
+<div class="teks">
+<div class="tag">
+  Handmade • By Raras
+</div>
+<div class="brand"> BLOOMY THINGS </div>
+<div class="produk"> Little Petals </div>
+<div class="deskripsi"> Rajutan multifungsi handmade yang dibuat untuk menemani hal-hal kecil dalam keseharianmu. Berbentuk bunga daisy dengan seutas tali dalam berbagai pilihan warna, Little Petals hadir sebagai aksesoris sederhana yang tetap manis dan fungsional. Ukurannya yang mungil membuatnya mudah dibawa dan digunakan kapan saja, baik untuk kebutuhan sehari-hari maupun sebagai pelengkap aesthetic favoritmu. </div>
+   </div>
+   <div class="image"> <img src="bunga.jpg" alt="Bunga Rajut Daisy"> </div>
+   </div>
+
+   <h1> BISA JADI APA AJA YAA??</h1>
+ <div class="fungsi1">
+<h2> 1. Bookmark</h2>
+
+<p>
+Little Petals dapat digunakan sebagai pembatas buku yang tidak hanya fungsional, tetapi juga menambah kesan hangat dan aesthetic di setiap halaman favoritmu
+</p>
+
+<div class="img1"> <img src="bookmark.png" alt="Bookmark Daisy"> </div>
+</div>
+
+ <div class="fungsi2">
+<h2> 2. Bag Charm </h2>
+
+<p>
+Bag charm Little Petals dapat mempercantik tas favoritmu. Bentuk bunga dan warna lembutnya memberikan sentuhan playful dan manis untuk digunakan sehari-hari
+</p>
+
+<div class="img2"> <img src="Bag Charm.png" alt="Bag Charm Daisy"> </div>
+</div>
+
+ <div class="fungsi3">
+<h2> 3. Cable Organizer </h2>
+
+<p>
+Little Petals juga mampu membantu merapikan kabel earphone, charger, atau kabel kecil lainnya agar tidak mudah kusut. Praktis digunakan sekaligus tetap terlihat lucu dimanapun
+</p>
+
+<div class="img3"> <img src="Cable Organizer.png" alt="Cable Organizer Daisy"> </div>
+</div>
+
+ <div class="fungsi4">
+<h2> 4. Curtain Ties </h2>
+
+<p>
+Little Petals dapat menjadi berbagai produk, yang kini dapat digunakan sebagai pengikat tirai untuk memberikan sentuhan manis dan hangat pada sudut ruanganmu
+</p>
+
+<div class="img4"> <img src="curtain ties.png" alt="Curtain Ties Daisy"> </div>
+</div>
+
+<div class="wawa">
+  WARNING!!
+</div>
+<div class="Warning">
+1. Gunakan produk dengan hati-hati <br>
+2. Hindari air berlebihan atau tarikan kuat agar tetap awet <br>
+3. Simpan di tempat kering dan bersih saat tidak digunakan <br>
+4. Produk Little Petals dibuat secara handmade sehingga memiliki sedikit perbedaan tiap item <br>
+5. Produk ini dapat digunakan dengan berbagai cara dan hasil, sesuaikan dengan preferensi masing masing <br>
+6. Saat ini halaman hanya bisa diakses dengan situs desktop <br>
+7. Berikan Feedback berupa rate, kritik, dan saran via WhatsApp ♡♡♡ㅤㅤ  
+</div>
+
+<div class="footer">
+Made with love ♡ Bloomy Things
+</div>
+</body>
+
+</html>
